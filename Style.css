@@ -1,0 +1,67 @@
+.square{
+    float: left;
+    width: 30%;
+    height: auto;
+    padding-bottom: 30%;
+    margin: 10px;
+    border-radius: 20px;
+    display: block;
+    transition: .2s ease-out;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#h1{
+    color: whitesmoke;
+    background-color: rgba(0, 247, 255, 0.452);
+    margin: 0px;
+}
+
+body{
+    background-color: #232323;
+    text-align: center;
+}
+
+#message{
+    color: black;
+    background-color: white;
+    transition: 1.2s ease-out;
+}
+
+#stripe{
+    background-color: white;
+    height: 36px;
+    text-align: center;
+}
+.btn{
+    padding: 0.375rem 5.75rem;
+    margin-right: 3.1rem;
+    border: 0px;
+}
+ .btn-outline-secondary:hover {
+    color: black;
+    background-color: rgba(53, 54, 53, 0.541);
+    border: 0px;
+  }
+.btn-outline-secondary:focus {
+    box-shadow:none;
+    color: black;
+}
+
+.selected {
+    background-color: rgba(53, 54, 53, 0.541);
+    color: black;
+    transition: .7s ease-in;
+}
+#reset{
+    color: gray;
+    background-color: white;
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+}
